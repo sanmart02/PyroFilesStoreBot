@@ -6,8 +6,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "9100170"))
 	API_HASH = os.environ.get("API_HASH", "8bd74422e5a71ca6a5b00bcbdb1bfa48")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5769302114:AAGezysceJwpS8Vya-6UKWlrLJAy-4J23WM")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "FileStoreOfficialBot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5667419694:AAHZ469DtBT_4tkPMZS0byV5_U6JEemDUBA")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "ShareHiddenFilesBot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001874528738"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1170822786"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://hubdatv:hubdatv@filestore.3rlrsul.mongodb.net/?retryWrites=true&w=majority")
